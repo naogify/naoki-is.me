@@ -1,10 +1,8 @@
 # Netlify "kitchen sink" example: https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
 backend:
-  name: github
-  repo: naogify/naoki-is.me
+  name: git-gateway
   branch: master
 
-display_url: http://localhost:8000
 media_folder: static/assets
 public_folder: assets
 publish_mode: editorial_workflow
