@@ -1,6 +1,7 @@
 # Netlify "kitchen sink" example: https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
 backend:
-  name: git-gateway
+  name: github
+  repo: naogify/naoki-is.me
   branch: master
 
 media_folder: static/assets
