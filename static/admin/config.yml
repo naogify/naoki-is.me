@@ -1,32 +1,15 @@
 # Netlify "kitchen sink" example: https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
-
-localhost_development:
-  backend:
-    name: file-system
-    api_root: /api
-
 backend:
-  name: git-gateway
-  repo: damassi/gatsby-typescript-netlify-starter
+  name: github
+  repo: naogify/naoki-is.me
   branch: master
 
 display_url: http://localhost:8000
 media_folder: static/assets
 public_folder: assets
+publish_mode: editorial_workflow
 
 collections:
-  - name: mdx
-    label: Mdx Example
-    description: Documentation
-    folder: content/mdx
-    extension: mdx
-    format: frontmatter
-    widget: mdx
-    create: true
-    fields:
-      - { label: Title, name: title, widget: string, required: true }
-      - { label: Body, name: body, widget: mdx }
-
   - name: blog
     label: Blog
     folder: content/blog
