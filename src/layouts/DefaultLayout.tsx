@@ -20,7 +20,7 @@ export default function DocsLayout(props) {
       <Box mr="20px">
         <Box mb="20px">
           <Link to="/">
-            <Sans>Home</Sans>
+            <Sans>ホーム</Sans>
           </Link>
         </Box>
         <NavTree />
