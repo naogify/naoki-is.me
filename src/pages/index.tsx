@@ -42,6 +42,10 @@ export default function Home() {
               <li><a href="https://sorabatake.jp/12087/">富士山が見える場所はどこまで？標高データから解析！【Tellusでやってみた編】</a> 日本発の衛星データプラットフォームTellusを使い、富士山からの可視領域を調べる。</li>
               <li><a href="https://sorabatake.jp/12928/">地球の丸さを考慮して、2地点間の可視性を考えてみた</a> 富士山の可視領域を地球の曲率を含めて計算。</li>
             </ul>
+            <h2>コミュニティ</h2>
+            <ul>
+              <li><a href="https://space-apps-kushimoto.github.io/">NASA International Space Apps Challenge in Kushimoto</a>2020年 実行委員長</li>
+            </ul>
             <h2>連絡先</h2>
             <ul>
               <li><a href="https://twitter.com/naogify">Twitter</a></li>
