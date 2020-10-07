@@ -44,7 +44,7 @@ export default function Home() {
             </ul>
             <h2>コミュニティ</h2>
             <ul>
-              <li><a href="https://space-apps-kushimoto.github.io/">NASA International Space Apps Challenge in Kushimoto</a>2020年 実行委員長</li>
+              <li><a href="https://space-apps-kushimoto.github.io/">NASA International Space Apps Challenge in Kushimoto</a> 2020年 実行委員長</li>
             </ul>
             <h2>連絡先</h2>
             <ul>
